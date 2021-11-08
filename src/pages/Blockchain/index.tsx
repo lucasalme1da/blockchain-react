@@ -15,7 +15,6 @@ import { Log, LogStatus } from '../../components/Logs/types';
 
 import * as S from './styles';
 import { Input, T } from '../../components/Block/styles';
-import { resolve } from 'path';
 
 const baseModalStyle: ReactModal.Styles = {
   content: {

@@ -24,13 +24,14 @@ const Block: React.FC<IProps> = ({ config, changeData, index }) => {
 
   return (
     <S.Container>
-      {editing ? (
-        <S.ButtonMessUp onClick={saveEdit}>Save</S.ButtonMessUp>
-      ) : (
-        <S.ButtonMessUp onClick={toggleEdit}>
-          Mess up with the data
-        </S.ButtonMessUp>
-      )}
+      {index !== 0 &&
+        (editing ? (
+          <S.ButtonMessUp onClick={saveEdit}>Save</S.ButtonMessUp>
+        ) : (
+          <S.ButtonMessUp onClick={toggleEdit}>
+            Mess up with the data
+          </S.ButtonMessUp>
+        ))}
       <S.Index>#{index + 1}</S.Index>
       <S.Paragraph>
         <S.T>Index: </S.T>
