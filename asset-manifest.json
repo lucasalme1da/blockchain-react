@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/blockchain-react/static/js/main.23b5dae7.chunk.js",
+    "main.js.map": "/blockchain-react/static/js/main.23b5dae7.chunk.js.map",
+    "runtime-main.js": "/blockchain-react/static/js/runtime-main.d45fd513.js",
+    "runtime-main.js.map": "/blockchain-react/static/js/runtime-main.d45fd513.js.map",
+    "static/js/2.85cd56a1.chunk.js": "/blockchain-react/static/js/2.85cd56a1.chunk.js",
+    "static/js/2.85cd56a1.chunk.js.map": "/blockchain-react/static/js/2.85cd56a1.chunk.js.map",
+    "index.html": "/blockchain-react/index.html",
+    "static/js/2.85cd56a1.chunk.js.LICENSE.txt": "/blockchain-react/static/js/2.85cd56a1.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d45fd513.js",
+    "static/js/2.85cd56a1.chunk.js",
+    "static/js/main.23b5dae7.chunk.js"
+  ]
+}
